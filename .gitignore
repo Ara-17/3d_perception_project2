@@ -1,0 +1,12 @@
+# Ignora ambiente virtuale e cache Python
+venv/
+__pycache__/
+*.pyc
+
+# Ignora il dataset pesante nuScenes e la cartella MiDaS locale
+data/
+MiDaS-*/
+
+# Ignora i pesi YOLO scaricabili in automatico e i video pesanti
+*.pt
+output/*.mp4
